@@ -1,12 +1,27 @@
-# React + Vite
+# 🏠 Clone do Airbnb - Projeto MERN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o início do desenvolvimento de um **clone do Airbnb** utilizando a stack **MERN** (MongoDB, Express, React, Node.js). O foco desta aplicação é permitir que usuários cadastrem, visualizem e reservem acomodações de maneira intuitiva, seguindo a estrutura e funcionalidades inspiradas na plataforma original.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Front-end
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/) – Build tool moderna e rápida para projetos React
 
-## Expanding the ESLint configuration
+### Back-end (a ser implementado)
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/) com [Mongoose](https://mongoosejs.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Estrutura do Projeto
+
+Este repositório contém **apenas o front-end** da aplicação. O back-end será desenvolvido e conectado posteriormente, formando uma aplicação completa com persistência de dados e autenticação de usuários.
+
+## 📦 Instalação
+
+```bash
+# Instale as dependências
+npm install
+
+# Rode o projeto em modo de desenvolvimento
+npm run dev
