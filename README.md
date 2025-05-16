@@ -7,11 +7,16 @@ Este é o início do desenvolvimento de um **clone do Airbnb** utilizando a stac
 ### Front-end
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/) – Build tool moderna e rápida para projetos React
+- [Tailwind CSS](https://tailwindcss.com/) – Framework de utilitários para estilização rápida e responsiva
 
 ### Back-end (a ser implementado)
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/) com [Mongoose](https://mongoosejs.com/)
+
+## 🎨 Estilização
+
+O projeto utiliza **Tailwind CSS** para agilizar a construção de layouts modernos e responsivos. A configuração do Tailwind foi feita manualmente no ambiente Vite + React.
 
 ## 📂 Estrutura do Projeto
 
