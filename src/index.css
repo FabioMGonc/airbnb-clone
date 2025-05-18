@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* #FF385C */
+
+/* Cores */
+:root {
+  --primary-color-400: #ff385c;
+}
