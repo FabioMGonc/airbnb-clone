@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 
-const Login = ({ setUser }) => {
+const Login = ({ user, setUser }) => {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -26,7 +26,7 @@ const Login = ({ setUser }) => {
       alert('Voce precisa preencher os campos de email e senha')
     }
   };
-  if (redirect) return <Navigate to="/" />;
+  if (redirect || user) return <Navigate to="/" />;
 
   return (
     <section className='flex items-center '>
