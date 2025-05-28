@@ -12,6 +12,21 @@ const Register = ({ setUser }) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        if (name && email && password) {
+      try {
+        const { data: userDoc } = await axios.post('/users', {
+            name,
+            email,
+            password,
+        }); 
+            setUser(userDoc)
+            setRedirect(true)
+        } catch (error) {
+            alert(`Erro ao cadastrar usuario: ${JSON.stringify(error)}`)
+        }
+        } else {
+        alert('Voce precisa preencher os campos de nome, email e senha')
+        }
     };
     if (redirect) return <Navigate to='/' />
 
